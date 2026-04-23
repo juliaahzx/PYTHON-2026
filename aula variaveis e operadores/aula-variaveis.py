@@ -23,7 +23,16 @@ ano_nascimento = 2007
 ano_atual = 2026
 idade = ano_atual - ano_nascimento
 
-#
+#algoritimo que recebe numero inteiro positivo N
+#imprime na tela todos os numeros de 1 a n.
+
+n = int(input("Digite um num inteiro n: "))
+
+cont = 1
+
+while cont <= n:
+    print(cont)
+    cont += 1
 
 
 
