@@ -57,7 +57,20 @@ def verificar_nota(nota):
      print("A noa deve estar eentre 0 e 10:")
      nota = float(input("Digite a nota novamente;"))
      return nota
+------------------------------------------------------------------
 
+# ATIVIDADE 3
+
+qtd_musica = int(input("Quantas musicas vc tem na playlist (db): "))
+
+for i in range(qtd_musica):
+    print(f"Música {i}")
+
+# laços alinhados
+
+for i in range(0, 4):
+    for j in range(0, 3, 2):
+        print(f"i:{i},j:{j}")
 
 
 
