@@ -3,7 +3,7 @@ print("oii")
 print(7+4)
 print("7 + 4")
 print("7" + "4") # CONCATENAÇÃO DE STRINGS
-
+-----------------------------------------------------------------
 # variáveis
 nome = "júlia" #str
 print(nome)
@@ -22,7 +22,7 @@ print(nome,idade)
 ano_nascimento = 2007
 ano_atual = 2026
 idade = ano_atual - ano_nascimento
-
+--------------------------------------------------------
 #algoritimo que recebe numero inteiro positivo N
 #imprime na tela todos os numeros de 1 a n.
 
@@ -33,6 +33,30 @@ cont = 1
 while cont <= n:
     print(cont)
     cont += 1
+--------------------------------------------------
+# while
+notaA =  float(input("Digite a primeira nota: "))
+while notaA < 0 or notaA > 10:
+    print("A nota deve estar entre 0 e 10")
+    notaA = float(input("Digite novamente:"))
+
+
+
+notaB = float(input("Digite a segunda nota:"))
+while notaB < 0 or notaB > 10:
+    print("A nota deve estar entre 0 e 10::")
+    notaB = float(input("Digite a nota novamente:"))
+
+media = (notaA + notaB) / 2
+print(media)
+
+# função 
+
+def verificar_nota(nota):
+ while nota < 0 or nota > 10:
+     print("A noa deve estar eentre 0 e 10:")
+     nota = float(input("Digite a nota novamente;"))
+     return nota
 
 
 
